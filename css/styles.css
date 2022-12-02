@@ -4,10 +4,28 @@
     box-sizing: border-box;
 }
 
-#Explanation
-{
-    height: 500px;
-    width: 500px;
-    background-color: greenyellow;
-    padding: 50px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+/* Estilos exclusivos del header*/
+header {
+    background: grey;
+    padding: 5px 50px;
+}
+#logo-luna {
+    width: 50px;
+}
+
+#logo-luna img {
+    border-radius: 100%;
+    border: 2px solid white;
 }
